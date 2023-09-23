@@ -26,6 +26,11 @@ header{
     #header-inner{
         padding: 0.5em 1em;
         background: var(--main-color);
+        color: var(--main-font);
+    }
+    #header-title{
+        font-size: 150%;
+        font-weight: bold;
     }
 }
 
