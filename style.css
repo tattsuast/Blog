@@ -7,6 +7,7 @@ abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,d
     --main-sub: 350px;
     --font-color: #7e7177;
     --bg-body: #f6f5f5;
+    --bg-content: #ffffff;
     --main-color: #aeddcd;
     --main-font: #ffffff;
     --sub-color: #ff9d76;
@@ -65,15 +66,17 @@ header{
 /* コンテンツ */
 #container{
     #main-inner{
+        margin-top: 30px;
         display: flex;
         #main-content{
+            background: var(--bg-content);
             margin-right: 30px;
-            width: calc(100% - 346px);
+            width: calc(100% - var(--main-sub));
             flex-shrink: 0;
         }
         #sub-content{
-            margin-top: 30px;
-            width: 316px;
+            background: var(--bg-content);
+            width: var(--main-sub);
             flex-shrink: 0;
         }
         @media ( max-width : 768px ) {
