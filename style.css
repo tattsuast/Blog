@@ -5,7 +5,7 @@ abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,d
 @media(max-width:480px){#main.width-100 #container{width:100%}.width-100 #sub-content,.width-100 .breadcrumbs{width:96%;margin-right:auto;margin-left:auto}}
 
 :root{
-    --main-sub: 350px;
+    --main-sub: 346px;
     --font-color: #7e7177;
     --bg-body: #f6f5f5;
     --bg-content: #ffffff;
@@ -41,30 +41,26 @@ header{
 /* メニュー */
 #menu-inner{
     #menu{
-        background: var(--sub-color);
-        font-size: 1.2em;
-        text-align: center;
-        bottom: 0;
-        left: 0;
-        width: 100%;
+        #nav{
+            list-style: none;
+            background:var(--sub-color);
+            font-size:1.2em;
+            text-align:center;
+            bottom:0;left:0;
+            width:100%;
+            color: var(--sub-font);
+        }
+        #nav li{
+            display: inline-block;
+        }
+        #nav li a{
+            text-decoration: none;
+            padding:0 5px;
+        }
     }
-    nav li{
-        display:inline-block; /* 横並び */
-        position:relative; /* サブメニュー表示位置の基準 */
-        height:1.2em; /* メニュー高さ */
-        line-height:1.5em; /* メニュー高さ */
-    }
-    nav li a,nav li span{
-        color:#fff;
-        display:block;
-        padding:0 5px;
-        text-decoration:none
-    }
-    nav li a:hover,nav li span:hover{
-        text-decoration:none
-    }
+    
 }
-/* コンテンツ */
+/* 2カラム */
 #container{
     #main-inner{
         margin-top: 30px;
@@ -93,6 +89,21 @@ header{
             }
         }
     }
+}
+
+/* メイン */
+#main-content{
+    padding: 0.5em 1.5em;
+    #headline{
+        #headline-title{
+            font-size: 150%;
+        }
+    }
+}
+
+/* サブ */
+#sub-content{
+    padding: 0.5em 1.5em;
 }
 
 /*---------- ▼設定▼ ----------*/
