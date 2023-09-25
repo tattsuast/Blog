@@ -110,6 +110,8 @@ header{
 }
 
 /*---------- ▼設定▼ ----------*/
-@media screen{
-
+@media screen and (max-width:768px){
+    body{
+        background: red;
+    }
 }
