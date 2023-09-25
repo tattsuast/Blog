@@ -1,5 +1,6 @@
 ---
 layout: home
-title: {{ site.title }}
+title: TAG"たっつー＊の成果の庭"
+description: TAGのメインページ
 ---
 ## プロフィール
