@@ -16,17 +16,16 @@ abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,d
 }
 
 /*---------- ▼共通設定▼ ----------*/
-@media all{
+@media screen{
     body{
         font-family: "游ゴシック体", "Yu Gothic", "YuGothic", "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ' , Meiryo , Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
         background: var(--bg-body);
         color: var(--font-color);
     }
     
-/*}*/
+}
 
-/*---------- ▼設定▼ ----------*/
-
+/*---------- ▼PC設定▼ ----------*/
 /* ヘッダー */
 header{
     #header-inner{
@@ -109,9 +108,9 @@ header{
 #sub-content{
     padding: 0.5em 1.5em;
 }
-}
-/*---------- ▼設定▼ ----------*
-@media screen and (max-width:768px){
+
+/*---------- ▼設定▼ ----------*/
+/*@media screen and (max-width:768px){
     body{
         background: red;
     }
