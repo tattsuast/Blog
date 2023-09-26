@@ -23,9 +23,10 @@ abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,d
         color: var(--font-color);
     }
     
-}
+/*}*/
 
-/*---------- ▼PC設定▼ ----------*/
+/*---------- ▼設定▼ ----------*/
+
 /* ヘッダー */
 header{
     #header-inner{
@@ -108,10 +109,10 @@ header{
 #sub-content{
     padding: 0.5em 1.5em;
 }
-
-/*---------- ▼設定▼ ----------*/
+}
+/*---------- ▼設定▼ ----------*
 @media screen and (max-width:768px){
     body{
         background: red;
     }
-}
+}*/
