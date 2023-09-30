@@ -19,8 +19,10 @@ abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,d
     }
     body{
         font-family: "游ゴシック体", "Yu Gothic", "YuGothic", "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ' , Meiryo , Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-        background: var(--bg-body);
+        /*background: var(--bg-body);*/
         color: var(--font-color);
+        background-image: url("/Blog/bg.png");
+        background-size: cover;
     }
     a{
         color: inherit;
