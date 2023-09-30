@@ -22,6 +22,10 @@ abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,d
         background: var(--bg-body);
         color: var(--font-color);
     }
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
     
 }
 
