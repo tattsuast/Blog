@@ -164,18 +164,6 @@ header{
                 width: calc(var(--main-sub) - 30px);
                 flex-shrink: 0;
             }
-            @media ( max-width : 768px ) {
-                #main-inner{
-                    display: block;
-                }
-                #main-content{
-                    margin-right: 0;
-                    width: 100%;
-                }
-                #sub-content{
-                    width: 100%;
-                }
-            }
         }
     }
 
