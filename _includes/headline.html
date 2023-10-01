@@ -5,7 +5,10 @@
 </p>
 <p id="headline-tag">
 タグ：
-{% capture tags %}{% for tag in page.tags %}{{ tag }}{% endfor %}{% endcapture %}
+{% capture tags %}{% for tag in page.tags %}
+{{ tag }}{% endfor %}{% endcapture %}
 {% assign eachtag = tags | split:' ' %}
-{% for tag in eachtag %}<a class="badge bg-success" href="/tags/{{ tag }}/index.html">{{ tag }}</a>{% endfor %}
+{% for tag in eachtag %}
+<a class="badge bg-success" href="/tags/{{ tag }}/index.html">{{ tag }}</a>
+{% endfor %}
 </p>
