@@ -126,3 +126,31 @@ abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,d
 @media all{
 
 }
+/* ページトップ */
+@media all{
+    #pagetop {/* 位置はscroll.jsで設定 */
+        background:rgba(0,0,0,.8);/* 背景 */
+        color:#b9e1d8;/* 色 */
+        border:3px solid #b9e1d8;
+        box-shadow:0 1px 5px #ccc;
+        height:50px;width:50px; /* 大きさ */
+        border-radius:30px;
+        box-sizing:border-box;
+        display:block;
+        line-height:16px;
+        padding-top:22px;
+        position:fixed;
+        text-align:center;
+        z-index:10
+    }
+    #pagetop:before {
+        content:'\25B2';
+        font-size:14px;
+        position:absolute;
+        left:0;top:7px;
+        width:100%
+    }
+    #pagetop:hover {
+        background:rgba(255,255,255,.8)
+    }
+}
